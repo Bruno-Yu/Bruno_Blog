@@ -1119,11 +1119,11 @@ function getLength(something: string | number): number {
 - 若需要尋找該套件所提供的官方或社群型別檔案，可以參考下面兩個檔案，但若以下這兩個方法都沒辦法找到對應的型別文件，就要自己寫了
     - **官方型別檔位置**: 在 node_modules 裡該套件的檔案內的 package.json 中的 types 欄位可以看到該檔案確切的位置，如下範例圖
         
-        [https://i.imgur.com/BeLXRcs.png[/img]](https://i.imgur.com/BeLXRcs.png[/img])
+        ![https://i.imgur.com/BeLXRcs.png[/img]](https://i.imgur.com/BeLXRcs.png[/img])
         
     - **社群型別檔案位置**: 同樣在 node_modules 內，官方沒有提供但社群有建置型別的檔案會放在這邊，如下範例圖
         
-        [https://i.imgur.com/RZmeKRr.png[/img]](https://i.imgur.com/RZmeKRr.png[/img])
+        ![https://i.imgur.com/RZmeKRr.png[/img]](https://i.imgur.com/RZmeKRr.png[/img])
         
         - 若在這邊沒有，也可以嘗試自行安裝確認下
             
@@ -1875,7 +1875,7 @@ tom = ['Tom', 25 , 27] // error TS2322: Type '[string, number, number]' is not a
     
     但在實戰中使用 enum 時，很多時候是有另外自訂的 key 對應各自獨特的 value，而這些 key 在很多時候是字串，那實際使用時要如何確保能雙向綁定呢? ( 方便有 key 時 找 value. 或只有 value 時找字串 )
     
-    這時搭配 Map 來使用就很方便，例如以下是筆者在港務專案中，看到不錯的使用方式
+    這時搭配 Map 來使用就很方便，例如以下是筆者在實務專案中，看到不錯的使用方式
     
     - **註 1: Map 物件可以用 get(key) 的方法取得對應的 value**
         
