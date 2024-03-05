@@ -15,5 +15,5 @@ export const siteConfig: SiteConfig = {
 	lang: 'zh-TW',
 	ogLocale: 'zh-TW',
 	shareMessage: '歡迎來到布魯諾的筆記本', // Message to share a post on social media
-	paginationSize: 6 // Number of posts per page
+	paginationSize: 9 // Number of posts per page
 }
