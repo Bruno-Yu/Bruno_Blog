@@ -3722,7 +3722,7 @@ export default defineNuxtPlugin(nuxtApp => {
 })
 ```
 
-註: 功能同 Nuxt2 inject 寫法： inject('hello', msg => Hello ${msg} !)
+註: 功能同 Nuxt2 inject 寫法： `inject('hello', msg => Hello $\{ms\} !)`
 
 接著就可以在頁面中使用 useNuxtApp 這組合式函式取得全域變數
 
@@ -5685,7 +5685,7 @@ const { locale } = useI18n()
 
 - **具名變數使用方法**
     
-    使用 { 變數名 }
+    使用 \{ 變數名 \}
     
     ```json
     // ./locales/en.json
@@ -5731,7 +5731,7 @@ const { locale } = useI18n()
     
 - **匿名變數使用方法**
     
-    使用 { index }，這邊的 index 是為所帶陣列的 index 對應值
+    使用 \{ index \}，這邊的 index 是為所帶陣列的 index 對應值
     
     ```json
     // ./locales/en.json
