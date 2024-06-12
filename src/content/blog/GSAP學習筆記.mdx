@@ -2,7 +2,7 @@
 title: 'GSAP 學習筆記'
 description: '動態網站做起來~'
 pubDate: 'Jun 01 2024'
-heroImage: '../../assets/images/bootstrap.png'
+heroImage: '../../assets/images/gsap.jpeg'
 category: '技術'
 tags: ['前端','動畫']
 ---
@@ -459,7 +459,7 @@ tl.to(".green", { x: 600, duration: 2 })
     - 若是 "+=" 則類似 delay 的效果
     - 若是"-=" 則可以達到與上段動畫重疊的效果
     - 字串 "+=" 或 "-=" 除了可以接數值外，也可以用接 % 數 ex: "-=1", "-=50%”
-- 若是使用 "<" 則會與上一個動畫一同觸發 (註: 但 ">" 並不會有與下一個動畫一同觸發的效果 )
+- 若是使用 "\<" 則會與上一個動畫一同觸發 (註: 但 "\>" 並不會有與下一個動畫一同觸發的效果 )
 
 ```jsx
 const tl = gsap.timeline()
